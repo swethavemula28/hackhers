@@ -1,0 +1,58 @@
+<html>
+<head><center><h1><i>SPIN THE DECISION GUYS!!!!!!!!!!!!</i></h1></center>
+<style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style></head>
+<body style="background-color:purple;" >
+<center>
+<div style="height:333px;margin-top: 99px">
+<img alt="Spin the decision" height="250" width="300" src="C:\Users\RAM\Desktop\Hackhers\pic1.gif">
+</div>
+<div>
+<p style="color:red;font-size:150%; font-family:Century Gothic">Hey guys!!!! Can't decide????Tired of taking a decision out of the various options available </p>
+<p style="color:orange;font-size:200%;font-family:verdana">Try our app, The cool problem resolver</p>
+<p style="color: yellow;font-size:300%">How many inputs do you want to choose from??</p>
+<a href="page2.html"><button class="button">Two??</button></a>
+<button class="button">Three???</button>
+<button class="button">Four????</button>
+</div>
+</body>
+</html>
